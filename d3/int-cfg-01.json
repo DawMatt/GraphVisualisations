@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "ERP", "group": 1},
+    {"id": "CRM", "group": 1},
+    {"id": "SaaS1", "group": 2},
+    {"id": "SaaS2", "group": 2},
+    {"id": "IPaaS", "group": 3}
+  ],
+  "links": [
+    {"source": "CRM", "target": "IPaaS", "value": 1},
+    {
+      "source": "IPaaS",
+      "target": "ERP",
+      "value": 1
+    },
+    {"source": "ERP", "target": "IPaaS", "value": 8},
+    {"source": "IPaaS", "target": "SaaS1", "value": 10},
+    {"source": "IPaaS", "target": "SaaS2", "value": 6}
+  ]
+}
