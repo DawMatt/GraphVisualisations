@@ -1,8 +1,8 @@
 # Readme
 
-Example D3.js visualisations embedded in webpages.
+Example D3.js visualisations embedded in web pages.
 
-Use `start-web.sh` to start a simple Python 3 web server in this folder. Once that has started the links below will access the relevant pages at localhost (port 8000).
+Clone the repository and use `start-web.sh` to start a simple Python 3 web server in this folder. Once that has started the links below will access the relevant pages at localhost (port 8000).
 
 | Name | Description |
 | --- | --- |

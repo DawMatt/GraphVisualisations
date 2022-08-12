@@ -1,2 +1,2 @@
-# GraphVisualisations
+# Graph Visualisations
 Various graph visualisations
